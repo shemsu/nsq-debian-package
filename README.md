@@ -4,16 +4,16 @@ This is debian package with the official [NSQ](https://github.com/bitly/nsq) [bi
 
 ## Download it
 
-    $ wget https://github.com/fclairamb/nsq-debian-package/releases/download/0.3.5/nsq_0.3.5_amd64.deb
+    $ wget https://github.com/shemsu/nsq-debian-package/releases/download/0.3.7/nsq_0.3.7_amd64.deb
 
 
 ## Install it
 
-    $ sudo dpkg -i nsq_0.3.5_amd64.deb 
+    $ sudo dpkg -i nsq_0.3.7_amd64.deb 
     (Reading database ... 33401 files and directories currently installed.)
-    Preparing to unpack nsq_0.3.5_amd64.deb ...
-    Unpacking nsq (0.3.5) over (0.3.2) ...
-    Setting up nsq (0.3.5) ...
+    Preparing to unpack nsq_0.3.7_amd64.deb ...
+    Unpacking nsq (0.3.7) over (0.3.2) ...
+    Setting up nsq (0.3.7) ...
 
 ## APT alternative
 
@@ -28,22 +28,22 @@ You can also add my APT server to make future upgrades easier:
 ## Use it
 
     $ ls -l /usr/bin/*nsq*
-    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsqadmin -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsqadmin
-    lrwxrwxrwx 1 root root   47 avril 27 21:47 /usr/bin/nsqd -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsqd
-    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsqlookupd -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsqlookupd
-    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsq_pubsub -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_pubsub
-    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsq_stat -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_stat
-    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsq_tail -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_tail
-    lrwxrwxrwx 1 root root   54 avril 27 21:47 /usr/bin/nsq_to_file -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_to_file
-    lrwxrwxrwx 1 root root   54 avril 27 21:47 /usr/bin/nsq_to_http -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_to_http
-    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsq_to_nsq -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_to_nsq
-    lrwxrwxrwx 1 root root   49 avril 27 21:47 /usr/bin/to_nsq -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/to_nsq
+    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsqadmin -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsqadmin
+    lrwxrwxrwx 1 root root   47 avril 27 21:47 /usr/bin/nsqd -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsqd
+    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsqlookupd -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsqlookupd
+    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsq_pubsub -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsq_pubsub
+    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsq_stat -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsq_stat
+    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsq_tail -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsq_tail
+    lrwxrwxrwx 1 root root   54 avril 27 21:47 /usr/bin/nsq_to_file -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsq_to_file
+    lrwxrwxrwx 1 root root   54 avril 27 21:47 /usr/bin/nsq_to_http -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsq_to_http
+    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsq_to_nsq -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/nsq_to_nsq
+    lrwxrwxrwx 1 root root   49 avril 27 21:47 /usr/bin/to_nsq -> /opt/nsq/nsq-0.3.7.linux-amd64.go1.4.2/bin/to_nsq
 
 
 Version:
 
     $ nsqd --version
-    nsqd v0.3.5 (built w/go1.4.2)
+    nsqd v0.3.7 (built w/go1.4.2)
 
 Checksum:
 
